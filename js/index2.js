@@ -7,7 +7,7 @@ async function getWeather(countryName) {
 
   if (country.value.length >= 3) {
     var weather = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${countryName}&days=3&aqi=no&alerts=no`
+      `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${countryName}&days=3&aqi=no&alerts=no`
     );
     if (weather.status == 400) {
       console.log(weather.statusText);
