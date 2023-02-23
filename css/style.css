@@ -1,0 +1,93 @@
+body {
+  background-color: #414350;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/banner.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+}
+a {
+  color: #fff;
+}
+.clear {
+  clear: both;
+}
+.col-4 {
+  padding: 0;
+}
+.card {
+  color: #fff !important;
+  height: 100%;
+  background-color: #414350;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+ul li span {
+  margin-right: 5px;
+}
+ul i {
+  color: #aaa;
+}
+.display-page {
+  height: 100vh;
+}
+.card-header {
+  color: #aaa;
+}
+.current-temp {
+  font-size: 4rem;
+}
+.forecast-condition-text {
+  color: #009ad8;
+}
+.weather-results .col-4:nth-child(2) .card {
+  background-color: #31323b;
+}
+.weather-day::first-letter {
+  text-transform: capitalize;
+}
+.weather-results .col-4:not(:nth-child(1)) .card img {
+  margin-top: 20px;
+}
+.weather-results .col-4:nth-child(1) .card img {
+  width: 35%;
+  height: 40%;
+  float: right;
+}
+.footer {
+  padding: 20px 0;
+  background-color: #222;
+}
+.footer-form {
+  width: 60%;
+}
+.footer-form,
+.footer-form input {
+  background-color: #31323b;
+}
+
+.footer-form input {
+  border: none;
+}
+.footer-social li {
+  width: 30px;
+  height: 30px;
+
+  background-color: #333;
+  border-radius: 50%;
+  text-align: center;
+}
+.footer-social i {
+  margin-top: 25%;
+  color: #009ad8;
+}
